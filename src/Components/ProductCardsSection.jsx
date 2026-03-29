@@ -1,24 +1,20 @@
-import image1 from "../public/roboticsAutomation.png"
-import image2 from "../public/inspection.jpg"
-import image3 from "../public/smartMonitoring.jpg"
-
 const cards = [
   {
     title: "Robotic Automation",
     subtitle: "Automates product handling, sorting, and production processes with intelligent robotics.",
-    image: image1,
+    image: "/roboticsAutomation.png",
     href: "#",
   },
   {
     title: "AI Quality Inspection",
     subtitle: "Detects defects and classifies products in real-time using computer vision and AI.",
-    image: image2,
+    image: "/inspection.jpg",
     href: "#",
   },
   {
     title: "Smart Monitoring System",
     subtitle: "Tracks inventory, predicts demand and delays, and optimizes energy consumption.",
-    image: image3,
+    image: "/smartMonitoring.jpg",
     href: "#",
   },
 ];
