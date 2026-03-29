@@ -15,7 +15,7 @@ export default function HeroSection() {
         loop
         playsInline
         preload="auto"
-        poster="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1920&q=80"
+        poster="https://www.cyngn.com/hubfs/smart%20manufacturing%20article%20header%20image%20%20(1).jpg"
       >
         <source src="/bgVideo.mp4" type="video/mp4" />
       </video>
