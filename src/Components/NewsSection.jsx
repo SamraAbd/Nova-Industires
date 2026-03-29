@@ -1,15 +1,19 @@
+import card1 from "../public/card1.webp"
+import card2 from "../public/card2.jpg"
+import card3 from "../public/card3.webp"
+
 const news = [
   {
     category: "Update",
     date: "03/2026",
-    image: "../public/card1.webp",
+    image: card1,
     title: "Development of AI-Based Quality Inspection System",
     href: "#",
   },
   {
     category: "Milestone",
     date: "02/2026",
-    image: "../public/card2.jpg",
+    image: card2,
     // bg: "#0f0f0f",
     // isStatement: true,
     // dark: true,
@@ -19,7 +23,7 @@ const news = [
   {
     category: "Research",
     date: "02/2026",
-    image: "../public/card3.webp",
+    image: card3,
     // bg: "#d6d6d6",
     // isStatement: true,
     // dark: false,

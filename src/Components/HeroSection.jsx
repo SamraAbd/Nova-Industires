@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { Link } from "react-router";
+import bgVideo from "../public/bgVideo.mp4"
 
 export default function HeroSection() {
   const videoRef = useRef(null);
@@ -16,7 +17,7 @@ export default function HeroSection() {
         playsInline
         poster="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1920&q=80"
       >
-        <source src="../public/bgVideo.mp4" type="video/mp4" />
+        <source src={bgVideo} type="video/mp4" />
       </video>
 
       {/* Gradient overlay */}
